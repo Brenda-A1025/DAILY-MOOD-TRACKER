@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Daily Mood Tracker</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='index.js'></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello</h1>
+        <h1> Welcome to Daily Mood Tracker. </h1>
+        <h1>How are you feeling today?</h1>
+        <div class="mood-selection">
+            <div class="mood-option">
+                <button class="mood">😊</button>
+                <p>happy</p>
+            </div>
+            <div class="mood-option">
+                <button class="mood">😑</button>
+                <p>Neutral</p>
+            </div>
+            <div class="mood-option">
+                <button class="mood">😫</button>
+                <p>sad</p>
+            </div>
+            <div class="mood-option">
+                <button class="mood">😢</button>
+                <p>crying</p>
+            </div>
+            
+        </div>
+        <textarea placeholder="Write a short paragraph about how you are feeling.." rows="4"></textarea>
+        <button class="Submit-btn">Save Mood</button>
+        <div class="log">
+            <h2>Your mood log</h2>
+            <ul id="mood-enteries"></ul>
+        </div>
+    </div>
+</body>
+</html>

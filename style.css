@@ -1,0 +1,66 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #bd7373, #ebedee);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-width: 100vh;
+    align-items: center;
+}
+.container{
+    padding: 30px;
+    max-width: 500px;
+    text-align: center;
+}
+h1{
+    font-size: 2.0rem;
+    margin-bottom: 50px;
+    color: #333;
+}
+.mood-selection{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.mood{
+    font-size: 3rem;
+    padding: 10px 15px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    transition: transform 0.2s ease;
+}
+.mood-option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.mood:hover{
+    transform: scale(1.3);
+}
+textarea{
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.Submit-btn{
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.Submit-btn:hover{
+    background-color: #bd7373;
+}
